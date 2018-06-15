@@ -35,6 +35,7 @@ class Nalu(CMakePackage):
     homepage = "https://github.com/NaluCFD/Nalu"
     url      = "https://github.com/NaluCFD/Nalu.git"
 
+    tags = ['ecp', 'ecp-apps']
     maintainers = ['jrood-nrel']
 
     variant('openfast', default=False,
